@@ -1,0 +1,27 @@
+header {
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-link {
+    margin-right: 20px;
+    color: white;
+}
+
+.header-link:hover {
+    color: darkgray;
+}

@@ -1,41 +1,21 @@
 body {
     margin: 0px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', cursive;
+    overflow: auto;
+    background-color: black;
+    color: white;
 }
 
-header {
-    top: 0px;
-    height: 100px;
-    width: 100%;
-    background-color: #213e6e;
-    position: fixed;
-    padding: 0px 50px 0px 50px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+#main-container {
+    margin-top: 100px;
 }
 
 a {
     text-decoration: none;
+    font-family: 'Lobster', cursive;
     color: black;
     font-size: 20px;
     transition: all 0.1s ease;
-}
-
-.header-links {
-    display: flex;
-    flex-direction: row;
-}
-
-.header-link {
-    margin-right: 20px;
-    color: white;
-}
-
-.header-link:hover {
-    color: darkgray;
 }
 
 button {
@@ -45,8 +25,10 @@ button {
     cursor: pointer;
 }
 
-.container {
-    margin-top: 100px;
-    height: 2000px;
-    padding: 20px;
+p {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
 }

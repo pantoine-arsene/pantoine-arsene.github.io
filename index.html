@@ -5,44 +5,46 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>A Basic HTML5 Template</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
-  <meta name="author" content="SitePoint">
+  <title>Vitrine | Paul-Antoine Arsène</title>
+  <meta name="description" content="Website of Pa">
+  <meta name="author" content="pa">
 
-  <meta property="og:title" content="Homepage 🏠">
-  <meta property="og:type" content="website">
-  <meta property="og:description" content="Welcome to my website">
-  <meta property="og:image" content="image.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@500&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&family=Oxygen&display=swap" rel="stylesheet">
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">  
+  <link rel="icon" href="./favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/landing-page.css">
+  <link rel="stylesheet" href="css/header.css">
 
 </head>
 
 <body>
-  <!-- your content here... -->
   <script src="./js/script.js"></script>
   <header>
       <div class="header-links">
-        <a class="header-link" href="./profile.html">Profil</a>
-        <a class="header-link" href="./knowMore.html">En savoir plus</a>
+        <a class="header-link">Accueil</a>
+        <a class="header-link">Formation</a>
+        <a class="header-link">Expérience</a>
+        <a class="header-link">Me contacter</a>
       </div>
   </header>
-  <div id="main-container" class="container">
-    <div id="sub-container-1" class="sub-container">
-      <p>
-        Test
-      </p>
-    </div>
-    <div id="sub-container-2" class="sub-container">
+  <div id="main-container">
+    <div class="sub-container" id="sub-1">
 
+        <div class="sub-1-col">
+          <h1 class="title text-large">Bienvenue,</h1>
+          <h2 class="title text-small">Je suis Paul-Antoine et je développe des sites web</h2>
+        </div>
+        <div class="sub-1-col" id="sub-1-col-2">
+          <img src="./assets/face_nb.png" id="face-image"/>
+        </div>
+
+    </div>
+    <div class="sub-container" id="sub-2">
     </div>
   </div>
 </body>
