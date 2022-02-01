@@ -31,4 +31,17 @@ p {
 
 h1 {
     font-family: 'Lobster', cursive;
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+h4 {
+    margin: 0px;
 }
