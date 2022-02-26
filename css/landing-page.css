@@ -83,12 +83,13 @@
 }
 
 .x-list-elem-pic {
-    max-height: 250px;
+    max-height: 150px;
     max-width: 250px;
     margin-bottom: 20px;
 }
 
 .x-list-elem-label {
     font-family: 'Montserrat', cursive;
+    display: block;
     font-size: 25px;
 }
