@@ -1,19 +1,37 @@
+:root {
+    --black: #060C0C;
+    --cream: #E6DAC6;
+    --hover: #343636;
+    --header-height: 100px;
+}
+
+@font-face {
+    font-family: "hussar";
+    src: url("../assets/fonts/hussar-ekologiczny-font/HussarEkologiczne1-4Mj6.otf");
+}
+
+@font-face {
+    font-family: "charis-sil";
+    src: url("../assets/fonts/charis-sil-font/CharisSil-Jw77.ttf");
+}
+
 body {
     margin: 0px;
     font-family: 'Montserrat', cursive;
     overflow: auto;
-    background-color: black;
-    color: white;
+    background-color: var(--cream);
+    color: var(--black);
+    height: 100vh;
 }
 
 #main-container {
-    margin-top: 100px;
+    height: 100%;
 }
 
 a {
     text-decoration: none;
-    font-family: 'Lobster', cursive;
-    color: black;
+    font-family: 'Montserrat', cursive;
+    color: var(--black);
     font-size: 20px;
     transition: all 0.1s ease;
 }
@@ -25,23 +43,30 @@ button {
     cursor: pointer;
 }
 
+.graphic-font {
+    font-family: 'charis-sil';
+}
+
 p {
     margin: 0;
 }
 
 h1 {
-    font-family: 'Lobster', cursive;
-    margin: 0px;
+    font-size: 64px;
+    margin: 0;
 }
 
 h2 {
-    margin: 0px;
+    font-size: 56px;
+    margin: 0;
 }
 
 h3 {
-    margin: 0px;
+    font-size: 48px;
+    margin: 0;
 }
 
 h4 {
-    margin: 0px;
+    font-size: 40px;    
+    margin: 0;
 }

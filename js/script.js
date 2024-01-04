@@ -1,6 +1,10 @@
-var count = 0;
+const className = "inverted";
+const scrollTrigger = 60;
 
-function handleClick() {
-    count += 1;
-    document.getElementById("main-container").textContent = count.toString();
-}
+window.onscroll = function() {
+    if (window.scrollY >= scrollTrigger) {
+      document.getElementsByTagName("header")[0].classList.add(className);
+    } else {
+      document.getElementsByTagName("header")[0].classList.remove(className);
+    }
+  };
